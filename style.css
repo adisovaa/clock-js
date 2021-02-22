@@ -1,0 +1,31 @@
+    body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: linear-gradient(#A9F1DF, #FFBBBB);
+    }
+
+    #clock {
+    width: 450px;
+    padding: 64px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    text-align: justify;
+    }      
+            
+    div {
+    display: inline-block;
+    color: #aaa;
+    }
+
+    .selected {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #aaa;
+    }
